@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../js/config.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeIBGBo6ocbGCsQFwjttRGiY8SKmNMRDM&sensor=false"></script>
+		<script src="../js/Libraries/jquery.js"></script>
+		<script src="../js/Libraries/myphp.min.js"></script>
+		<script src="../js/Prototypes/Historigin/Collection/Collection.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/_reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />	
+		
+	</head>
+	<body>
+		<script>
+			$(function(){
+				var C = new Collection();
+				C.addItem('stuff','stuff');
+				console.debug("After add:", C.getItem('stuff'));
+				console.debug("After add all items:", C.getAllItems());
+				C.removeItem('stuff');
+				
+				console.debug("After removing one item", C.getAllItems());
+				C.addItem('stuff', 'stuff');
+				
+				var anotheritem = {'gif' : "more stuff", 'gif2' :"morestuff again"};
+				console.debug(anotheritem);
+				console.debug('Diff: ', C.diff(anotheritem))
+				
+				C.merge(anotheritem);
+				console.debug('After Merge:', C.getAllItems());
+				
+				data = {userid : "userid"};
+				C.save(data, function(response){
+					console.debug(response);
+					console.debug(C.getAllItems());
+				});
+				C.load(data, function(response){
+					console.debug(response);
+					console.debug(C.getAllItems());
+				});
+				
+			});
+		</script>
+	</body>
+</html>

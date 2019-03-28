@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\appdevelopment\\Historiginfree\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-bg\\values-bg.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-12.0.1.aar\\27bfa321e7c3daa009fa63d7b0a28f8f\\res\\values-bg\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,282,416,481,548,638,757",
+                        "endColumns": "82,133,64,66,89,118,72",
+                        "endOffsets": "281,415,480,547,637,756,829"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "302,389,527,596,667,761,884",
+                        "endColumns": "86,137,68,70,93,122,76",
+                        "endOffsets": "384,522,591,662,756,879,956"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\5fa94d966d66ce5aff8d6d438fae5a81\\res\\values-bg\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "196",
+                        "endOffsets": "443"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "196",
+                        "endOffsets": "297"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\c7fc759756ef34f202b06db56f78f778\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "961",
+                        "endColumns": "100",
+                        "endOffsets": "1057"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\appdevelopment\\Historiginfree\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\c7fc759756ef34f202b06db56f78f778\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "961",
+                        "endColumns": "100",
+                        "endOffsets": "1057"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\5fa94d966d66ce5aff8d6d438fae5a81\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "219",
+                        "endOffsets": "470"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "219",
+                        "endOffsets": "320"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-12.0.1.aar\\27bfa321e7c3daa009fa63d7b0a28f8f\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "203,280,404,470,535,626,741",
+                        "endColumns": "76,123,65,64,90,114,69",
+                        "endOffsets": "279,403,469,534,625,740,810"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "325,406,534,604,673,768,887",
+                        "endColumns": "80,127,69,68,94,118,73",
+                        "endOffsets": "401,529,599,668,763,882,956"
+                    }
+                }
+            ]
+        }
+    ]
+}

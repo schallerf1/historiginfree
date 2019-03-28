@@ -1,0 +1,4 @@
+#Fri Mar 15 09:57:53 EDT 2019
+base.0=C\:\\appdevelopment\\Historiginfree\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

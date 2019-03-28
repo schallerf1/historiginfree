@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\appdevelopment\\Historiginfree\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi\\values-hi.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-12.0.1.aar\\27bfa321e7c3daa009fa63d7b0a28f8f\\res\\values-hi\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,271,374,444,515,592,686",
+                        "endColumns": "71,102,69,70,76,93,73",
+                        "endOffsets": "270,373,443,514,591,685,759"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "311,387,494,568,643,724,822",
+                        "endColumns": "75,106,73,74,80,97,77",
+                        "endOffsets": "382,489,563,638,719,817,895"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\5fa94d966d66ce5aff8d6d438fae5a81\\res\\values-hi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "205",
+                        "endOffsets": "452"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "205",
+                        "endOffsets": "306"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\schaller\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\c7fc759756ef34f202b06db56f78f778\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "900",
+                        "endColumns": "100",
+                        "endOffsets": "996"
+                    }
+                }
+            ]
+        }
+    ]
+}

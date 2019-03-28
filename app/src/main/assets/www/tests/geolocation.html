@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../js/config.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeIBGBo6ocbGCsQFwjttRGiY8SKmNMRDM&sensor=false"></script>
+		<script src="../js/Libraries/jquery.js"></script>
+		<script src="../js/Libraries/myphp.min.js"></script>
+		<script src="../js/Prototypes/Historigin/Collection/Collection.js"></script>
+		<script src="../js/Prototypes/Historigin/Geolocation/Geolocation.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/_reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />	
+		
+	</head>
+	<body>
+		<script>
+			$(function(){
+				var G = new Geolocation();
+				G.setRadius(500);
+				G.getCollection(39.976068, -83.003297, function(data){
+					console.debug(data);
+				});
+			});
+		</script>
+	</body>
+</html>
