@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeIBGBo6ocbGCsQFwjttRGiY8SKmNMRDM&sensor=false"></script>
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="../js/Prototypes/Historigin/Map/Map.js"></script>
+		<script src="../js/Prototypes/Historigin/Geolocation/Geolocation.js"></script>
+		<script src="../js/Prototypes/Historigin/Console/Console.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/_reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />	
+		
+	</head>
+	<body>
+		<div id="map"></div>
+		
+		<script>
+			$(function(){
+				hconsole = new Console('.console');
+				hconsole.enable(true);
+				geo = new Geolocation();
+				var M = new Map(document.getElementById('map'), {
+						center: {lat: 39.976068, lng: -83.003297},
+				zoom: 6});
+				m = M.addMarker(39.976068, -83.003297);
+				//M.removeMarker(m);
+				M.setHeadingPin(39.976068, -83.003297, 12);
+				M.setCenter(39.976068, -89.003297)
+			});
+		</script>
+	</body>
+</html>

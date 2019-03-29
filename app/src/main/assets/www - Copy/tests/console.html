@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../js/Libraries/jquery.js"></script>
+		<script src="../js/Libraries/myphp.min.js"></script>
+		<script src="../js/Prototypes/Historigin/Console/Console.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/_reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />	
+	</head>
+	<body>
+		<div class="console"></div>
+		
+		<script>
+			$(function(){
+				var C = new Console('.console');
+				C.log('this is some data');
+				C.enable(1);
+				C.log(C.isEnabled());
+				C.log('this is some data');
+				C.log('this is some data');
+				C.log('this is some data');
+				C.log('this is some data');
+				C.log('this is some data');
+				C.log('this is some data');
+				C.send();
+			});
+		</script>
+	</body>
+</html>
